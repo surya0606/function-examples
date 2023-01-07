@@ -1,0 +1,121 @@
+# type1:function without arguments and without return type
+
+def cal():
+    a=int(input("Enter the value for a:"))
+    b=int(input("enter the value for b:"))
+    c=a+b
+    d=a-b
+    e=a*b
+    f=a/b
+    print(c)
+    print(d)
+    print(e)
+    print(float(f))
+
+cal()
+
+output:
+Enter the value for a:5
+enter the value for b:6
+11
+-1
+30
+0.8333333333333334
+>>> 
+
+
+
+
+#type2: function with arguments and without return type
+
+def type2(a,b):
+    c=a+b
+    d=a-b
+    e=a*b
+    f=a/b
+    print(c)
+    print(d)
+    print(e)
+    print(float(f))
+type2(5,7)
+
+output:
+12
+-2
+35
+0.7142857142857143
+
+
+#type3:functions without arguments and with refurn type
+
+def add():
+    a=int(input("enter a value:"))
+    b=int(input("enter b value:"))
+    c=a+b
+    return c
+def sub():
+    a=int(input("enter a value:"))
+    b=int(input("enter b value:"))
+    d=a-b
+    return d
+def mul():
+    a=int(input("enter a value:"))
+    b=int(input("enter b value:"))
+    e=a*b
+    return e
+def div():
+    a=int(input("enter a value:"))
+    b=int(input("enter b value:"))
+    f=float(a/b)
+    return f
+print(add())
+print(sub())
+print(mul())
+print(div())
+
+
+output:
+
+enter a value:3
+enter b value:4
+7
+enter a value:5
+enter b value:6
+-1
+enter a value:7
+enter b value:8
+56
+enter a value:76
+enter b value:56
+1.3571428571428572
+
+
+#type4:functions with arguments and with refurn type
+
+def add(a,b):
+    c=a+b
+    return c
+def sub(a,b):
+    d=a-b
+    return d
+def mul(a,b):
+    e=a*b
+    return e
+def div(a,b):
+    f=float(a/b)
+    return f
+print(add(3,4))
+print(sub(7,9))
+print(mul(34,56))
+print(div(55,42))
+
+output:
+
+7
+-2
+1904
+1.3095238095238095
+
+
+
+
