@@ -46,7 +46,7 @@ output:
 0.7142857142857143
 
 
-#type3:functions without arguments and with refurn type
+#type3:functions without arguments and with return type
 
 def add():
     a=int(input("enter a value:"))
@@ -90,7 +90,7 @@ enter b value:56
 1.3571428571428572
 
 
-#type4:functions with arguments and with refurn type
+#type4:functions with arguments and with return type
 
 def add(a,b):
     c=a+b
